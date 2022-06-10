@@ -12,7 +12,7 @@
     --dark:#1B1A17;
     --primary:#E0DDAA;
     --secondary:#F5F2E7;
-    --alternate:#323232;
+    --alternate:#2C3333;
 }
 
 body{
@@ -166,14 +166,57 @@ body{
     align-items: center;
 }
 
-.container{
-    margin: 40px;
+.intro-container{
+    margin: 150px 200px;
 }
 
-.intro{
+
+
+.intro1{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 40px;
+    font-size: 90px;
+    font-weight: bold;
     color: #E0DDAA;
+
 }
+
+.intro2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: var(--primary);
+    margin-top: 40px;
+}
+
+.desc{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: var(--secondary);
+    margin-top: 100px;
+    display: flex;
+    opacity: 0.6;
+
+
+}
+
+#front_d{
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+#front_d:hover{
+   transform: translateY(-20px);
+}
+
+#web_d{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+#web_d:hover{
+    transform: translateY(-20px);
+}
+
 
 
